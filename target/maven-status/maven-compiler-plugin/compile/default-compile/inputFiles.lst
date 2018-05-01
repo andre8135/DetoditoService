@@ -1,44 +1,44 @@
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\Servlets\CancelarPedido.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\Servlets\Login.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\DataAccess\ICategoriasRep.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\entities\Actividades.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\DataAccess\CategoriasRep.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\Servlets\ReservarServicio.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\entities\Usuarios.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\DataAccess\ProvinciasRep.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\DataAccess\IPedidosRep.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\DataAccess\DistritosRep.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\DataAccess\IProveedoresRep.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\entities\Servicios.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\DataAccess\IProvinciasRep.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\Servlets\RegistrarServicio.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\entities\Reclamos.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\DataAccess\ITipoDocumentoRep.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\DataAccess\PedidosRep.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\DataAccess\IDepartamentosRep.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\entities\Provincias.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\Servlets\logout.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\Servlets\MasBuscado.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\entities\TipoDocumento.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\DataAccess\ServiciosRep.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\Servlets\ActualizarPerfil.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\DataAccess\IDistritosRep.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\Servlets\Registrar.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\DataAccess\TipoDocumentoRep.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\entities\Proveedores.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\entities\Categorias.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\DataAccess\IServiciosRep.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\DataAccess\DepartamentosRep.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\Servlets\ServiciosServlet.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\entities\Departamentos.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\Servlets\CambioPassword.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\DataAccess\IUsuariosRep.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\DataAccess\UsuariosRep.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\entities\Pedidos.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\Servlets\VerDetalleServlet.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\DataAccess\ReclamosRep.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\DataAccess\NewHibernateUtil.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\DataAccess\ProveedoresRep.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\entities\Distritos.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\pe\edu\upc\DataAccess\IReclamosRep.java
-C:\Users\Andre Puente\Desktop\OneDrive_2_18-4-2018\201701_wv61_-detoditoservice\src\main\java\Servlets\CambioContraseña.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\DataAccess\IProvinciasRep.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\Servlets\RegistrarServicio.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\DataAccess\IDistritosRep.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\entities\Departamentos.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\Servlets\Registrar.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\DataAccess\IReclamosRep.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\entities\Categorias.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\Servlets\CancelarPedido.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\Servlets\Login.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\DataAccess\IPedidosRep.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\DataAccess\IDepartamentosRep.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\DataAccess\TipoDocumentoRep.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\Servlets\ServiciosServlet.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\DataAccess\PedidosRep.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\entities\Servicios.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\DataAccess\IServiciosRep.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\Servlets\CambioContraseña.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\DataAccess\DepartamentosRep.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\entities\Proveedores.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\Servlets\logout.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\DataAccess\ICategoriasRep.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\entities\Pedidos.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\DataAccess\NewHibernateUtil.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\entities\Usuarios.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\DataAccess\IUsuariosRep.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\Servlets\ActualizarPerfil.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\Servlets\ReservarServicio.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\entities\Reclamos.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\DataAccess\DistritosRep.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\entities\Provincias.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\entities\Distritos.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\DataAccess\CategoriasRep.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\entities\TipoDocumento.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\DataAccess\ITipoDocumentoRep.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\DataAccess\ProvinciasRep.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\entities\Actividades.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\Servlets\VerDetalleServlet.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\DataAccess\ServiciosRep.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\DataAccess\ProveedoresRep.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\DataAccess\IProveedoresRep.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\Servlets\CambioPassword.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\Servlets\MasBuscado.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\DataAccess\ReclamosRep.java
+E:\Clases\exp\nuevo trabajo final\DetoditoService\src\main\java\pe\edu\upc\DataAccess\UsuariosRep.java
