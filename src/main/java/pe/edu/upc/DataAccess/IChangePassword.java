@@ -12,7 +12,5 @@ import pe.edu.upc.entities.Usuarios;
  * @author Andre Puente
  */
 public interface IChangePassword {
-    Usuarios GetUsuario(String correo);
-    Usuarios GetPassword(String password);
-
+    Usuarios GetUsuario(String correo, String password );
 }
