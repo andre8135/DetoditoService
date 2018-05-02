@@ -22,30 +22,19 @@ public class UsuariosRep implements IUsuariosRep {
         //validaiocn creacion de usuario
         
         //validaicone nombre
-        boolean validNombre1 = usuario.getNombre().matches("[a-zA-Z]+");;
-        boolean validNombre2 = !(usuario.getNombre().isEmpty());
-        System.out.println("valdio validNombre1 : " + validNombre1 + validNombre2);
-        
+        boolean validNombre1 = usuario.getNombre().matches("[a-zA-Z]+");
         //validaicone e-mail
-        boolean validCorreo1 = usuario.getCorreoElectronico().matches(".+@.+");
-        System.out.println("valdio validCorreo1 : " + validCorreo1  );
-        
+        boolean validCorreo1 = usuario.getCorreoElectronico().matches(".+@.+");      
         //validate password
-        boolean valiPassword1 = !(usuario.getPassword().isEmpty());
-        boolean valiPassword2 = (usuario.getPassword().length()>=6)? true: false;
-        System.out.println("valdio password : " + valiPassword1 + valiPassword2);
+        boolean valiPassword1 = (usuario.getPassword().length()>=6)? true: false;
         //validate telefono
         boolean validTelefono1 = (   usuario.getTelefono().matches("^[0-9]{9}$"))? true: false;    
-        System.out.println("valdio telefono : " + validTelefono1);
-        
         //validate direccion
-        boolean validDireccion1 = (usuario.getDireccion().isEmpty())? false: true;    
-        System.out.println("valdio validDireccion1 : " + validDireccion1);
-        
+        boolean validDireccion1 = (usuario.getDireccion().isEmpty())? false: true;      
         
         if(
-                validNombre1 && validNombre2 && validCorreo1 && valiPassword1 && 
-                valiPassword2 && validTelefono1 && validDireccion1
+                validNombre1  && validCorreo1 && valiPassword1
+                 && validTelefono1 && validDireccion1
                 ){
         Session session = NewHibernateUtil.getSessionFactory().openSession();
         session.beginTransaction();
@@ -138,6 +127,25 @@ public class UsuariosRep implements IUsuariosRep {
         
         objSession.close();
         
+    }
+    
+    
+
+    @Override
+    public boolean usuarioLogin(String correo, String password) {
+        
+        if(UsuarioExists(correo)){
+            Usuarios us = GetUsuario(correo);
+            
+            if(us.getPassword().equals(password)){
+            return true;
+            }else{
+                return false;    
+            }
+            
+        }else{
+            return false;
+        }
     }
 
 }

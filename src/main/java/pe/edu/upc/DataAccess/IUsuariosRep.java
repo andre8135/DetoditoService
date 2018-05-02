@@ -22,4 +22,5 @@ public interface IUsuariosRep {
    void deleteUsuario(String correo);
     String UpdateUSer(Usuarios objUser);
     
+    boolean usuarioLogin(String correo, String password);
 }

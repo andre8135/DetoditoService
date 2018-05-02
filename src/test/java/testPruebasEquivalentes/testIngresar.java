@@ -18,138 +18,58 @@ public class testIngresar {
     
     @Test
     public void testIngresar1(){
-        
-        Usuarios us = new Usuarios();
         IUsuariosRep usuarioRep = new UsuariosRep(); 
-        us = usuarioRep.GetUsuario("diego@gmail.com");
-        
-        assertTrue(("diego@gmail.com").toString().equals( us.getCorreoElectronico()) && ("123456").toString().equals(us.getPassword())) ;
+        assertTrue(usuarioRep.usuarioLogin("diego@gmail.com","123456"));
     }
     
     
     @Test
     public void testIngresar2(){
-        
-        Usuarios us = new Usuarios();
         IUsuariosRep usuarioRep = new UsuariosRep(); 
-        
-        
-        try{
-        us = usuarioRep.GetUsuario("diego@gmail.com");
-        
-        assertFalse(("diego@gmail.com").toString().equals( us.getCorreoElectronico()) && ("123ad").toString().equals(us.getPassword()));
-        }catch(Exception ex){
-            assertTrue(true);
-        }
+        assertTrue(!usuarioRep.usuarioLogin("diego@gmail.com","123ad"));
     }
     
     
     @Test
     public void testIngresar3(){
-        
-        Usuarios us = new Usuarios();
         IUsuariosRep usuarioRep = new UsuariosRep(); 
-        
-        
-        try{
-        us = usuarioRep.GetUsuario("diego@gmail.com");
-        assertFalse(("diego@gmail.com").toString().equals( us.getCorreoElectronico()) && ("12345").toString().equals(us.getPassword()));
-        
-        }catch(Exception ex){
-            assertTrue(true);
-        }
-        
+        assertTrue(!usuarioRep.usuarioLogin("diego@gmail.com","12345"));
     }
     
     
     @Test
     public void testIngresar4(){
-        
-        Usuarios us = new Usuarios();
         IUsuariosRep usuarioRep = new UsuariosRep(); 
-        
-        
-        try{
-        us = usuarioRep.GetUsuario("diego@gmail.com");
-        assertFalse(("diego@gmail.com").toString().equals( us.getCorreoElectronico()) && ("").toString().equals(us.getPassword()));
-        }catch(Exception ex){
-            assertTrue(true);
-        }
+        assertTrue(!usuarioRep.usuarioLogin("diego@gmail.com",""));
     }
     
     @Test
     public void testIngresar5(){
-        
-        Usuarios us = new Usuarios();
         IUsuariosRep usuarioRep = new UsuariosRep(); 
-        
-         
-        try{
-        us = usuarioRep.GetUsuario("159");
-        assertFalse(("159").toString().equals( us.getCorreoElectronico()) && ("123456").toString().equals(us.getPassword()));
-        }catch(Exception ex){
-            assertTrue(true);
-        }
+        assertTrue(!usuarioRep.usuarioLogin("159","123456"));
     }
     
     @Test
     public void testIngresar6(){
-        
-        Usuarios us = new Usuarios();
         IUsuariosRep usuarioRep = new UsuariosRep(); 
-        
-        
-        try{
-        us = usuarioRep.GetUsuario("H0L4");
-        assertFalse(("H0L4").toString().equals( us.getCorreoElectronico()) && ("123456").toString().equals(us.getPassword()));
-        }catch(Exception ex){
-            assertTrue(true);
-        }
-        
+        assertTrue(!usuarioRep.usuarioLogin("H0L4","123456"));
     }
     
     @Test
     public void testIngresar7(){
-        
-        Usuarios us = new Usuarios();
         IUsuariosRep usuarioRep = new UsuariosRep(); 
-        
-        try{
-        us = usuarioRep.GetUsuario("");
-        assertFalse(("").toString().equals( us.getCorreoElectronico()) && ("123456").toString().equals(us.getPassword()));
-        }catch(Exception ex){
-            assertTrue(true);
-        }
+        assertTrue(!usuarioRep.usuarioLogin("","123456"));
     }
     
     @Test
     public void testIngresar8(){
-        
-        Usuarios us = new Usuarios();
         IUsuariosRep usuarioRep = new UsuariosRep(); 
-        
-                try{
-        us = usuarioRep.GetUsuario("CERO");
-        assertFalse(("CERO").toString().equals( us.getCorreoElectronico()) && ("123456").toString().equals(us.getPassword()));
-        }catch(Exception ex){
-            assertTrue(true);
-        }
-        
+        assertTrue(!usuarioRep.usuarioLogin("CERO","123456"));
     }
     
     @Test
     public void testIngresar9(){
-        
-        Usuarios us = new Usuarios();
         IUsuariosRep usuarioRep = new UsuariosRep(); 
-        
-                try{
-        us = usuarioRep.GetUsuario("CERO@");
-        assertFalse(("CERO@").toString().equals( us.getCorreoElectronico()) && ("123456").toString().equals(us.getPassword()));
-        }catch(Exception ex){
-            assertTrue(true);
-        }
-        
-        
+        assertTrue(!usuarioRep.usuarioLogin("CERO@","123456"));
     }
 }

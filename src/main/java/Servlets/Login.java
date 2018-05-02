@@ -82,7 +82,7 @@ public class Login extends HttpServlet {
         
         IUsuariosRep usuarioRep = new UsuariosRep(); 
         Usuarios objUsuario = usuarioRep.GetUsuario(usuario);
-        if(objUsuario == null || !objUsuario.getPassword().equals(password))
+        if(!(usuarioRep.usuarioLogin(usuario, password)))
         {
           //  request.setAttribute("Error", "Correo o contrase\u00f1a incorrecta");
             request.setAttribute("Error", "Usuario o password incorrecta");
