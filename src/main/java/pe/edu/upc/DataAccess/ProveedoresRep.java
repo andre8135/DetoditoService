@@ -19,4 +19,16 @@ public class ProveedoresRep implements IProveedoresRep {
         session.close();
     }
 
+    @Override
+    public Proveedores getProv(int id) {
+                Session session = NewHibernateUtil.getSessionFactory().openSession();
+       Proveedores provincias;
+         try {
+            provincias = (Proveedores) session.get(Proveedores.class, id);
+        } finally {
+           session.close();
+        }
+        return provincias;
+    }
+
 }

@@ -85,5 +85,17 @@ public class ServiciosRep implements IServiciosRep {
         session.close();
         return servicios;
     }
+   @Override
+    public void deleteServicio(int id) {
+       Session objSession = NewHibernateUtil.getSessionFactory().openSession();
+ 
+        Servicios obj = this.GetServicioById(id);
+        
+        objSession.beginTransaction();
+        objSession.delete(obj);
+        objSession.getTransaction().commit();
+        
+        objSession.close();
+    }
 
 }

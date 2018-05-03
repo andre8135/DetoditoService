@@ -14,4 +14,5 @@ import pe.edu.upc.entities.Proveedores;
 public interface IProveedoresRep {
 
     void InsertProveedor(Proveedores proveedor);
+    Proveedores getProv(int id) ;
 }

@@ -6,7 +6,7 @@
     <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
     <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/detodito_service?zeroDateTimeBehavior=convertToNull</property>
     <property name="hibernate.connection.username">root</property>
-    <property name="hibernate.connection.password">root</property>
+    <property name="hibernate.connection.password">0725</property>
     <property name="hibernate.enable_lazy_load_no_trans">true</property>
     <mapping resource="pe/edu/upc/entities/Pedidos.hbm.xml"/>
     <mapping resource="pe/edu/upc/entities/Usuarios.hbm.xml"/>

@@ -19,4 +19,5 @@ public interface IServiciosRep {
     Servicios GetServicioById(int servicioId);
    void InsertServicio(Servicios servicio);
    void UpdateServicio(Servicios servicio);
+   void deleteServicio(int id);
 }
