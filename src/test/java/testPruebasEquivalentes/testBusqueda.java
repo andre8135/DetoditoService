@@ -25,7 +25,7 @@ public class testBusqueda {
         @Test
     public void testBusqueda1(){
         
-         String busqueda= "";
+         String busqueda= "JAVA";
          int idcategoria = 1;
          try{
             repo.GetAllServicios(busqueda, idcategoria);
@@ -36,7 +36,7 @@ public class testBusqueda {
         @Test
     public void testBusqueda2(){
         
-         String busqueda= "";
+         String busqueda= "JAVA";
          int idcategoria = 0;
          try{
             repo.GetAllServicios(busqueda, idcategoria);
@@ -47,7 +47,7 @@ public class testBusqueda {
        @Test
     public void testBusqueda3(){
         
-         String busqueda= "JAVA";
+         String busqueda= "";
          int idcategoria = 0;
          try{
             repo.GetAllServicios(busqueda, idcategoria);
@@ -58,8 +58,52 @@ public class testBusqueda {
         @Test
     public void testBusqueda4(){
         
-         String busqueda= "JAVA";
+         String busqueda= "";
          int idcategoria = 1;
+         try{
+            repo.GetAllServicios(busqueda, idcategoria);
+          }catch(Exception ex){
+            assertTrue(true);
+        }               
+    }
+          @Test
+    public void testBusqueda5(){
+        
+         String busqueda= "1234";
+         int idcategoria = 1;
+         try{
+            repo.GetAllServicios(busqueda, idcategoria);
+          }catch(Exception ex){
+            assertTrue(true);
+        }               
+    } 
+        @Test
+    public void testBusqueda6(){
+        
+         String busqueda= "HOL4";
+         int idcategoria = 1;
+         try{
+            repo.GetAllServicios(busqueda, idcategoria);
+          }catch(Exception ex){
+            assertTrue(true);
+        }               
+    } 
+       @Test
+    public void testBusqueda7(){
+        
+         String busqueda= "1234";
+         int idcategoria = 0;
+         try{
+            repo.GetAllServicios(busqueda, idcategoria);
+          }catch(Exception ex){
+            assertTrue(true);
+        }               
+    } 
+        @Test
+    public void testBusqueda8(){
+        
+         String busqueda= "HOL4";
+         int idcategoria = 0;
          try{
             repo.GetAllServicios(busqueda, idcategoria);
           }catch(Exception ex){
