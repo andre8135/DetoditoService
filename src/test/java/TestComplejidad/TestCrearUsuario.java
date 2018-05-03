@@ -97,7 +97,7 @@ public class TestCrearUsuario {
             usuarioRep.InsertUsuario(usuario);
             fail();
             usuarioRep.deleteUsuario(correoElectronico);
-            
+             
         }catch(Exception ex){
             assertTrue(true);
         }

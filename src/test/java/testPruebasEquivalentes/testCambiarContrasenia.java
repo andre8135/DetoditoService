@@ -30,22 +30,21 @@ public class testCambiarContrasenia {
                 && newpass.length() >= 6);
     }
     
-    @Test
+      @Test
     public void testCambiarPassword2(){
         Usuarios us = new Usuarios();
-        IChangePassword passRep = new ChangePassword();
-          try{
-                String newpass= "123456"; 
-                 us = passRep.GetUsuario("diego@gmail.com",newpass); 
-         
-                assertFalse(("123456").equals(us.getPassword()) && 
-                              !newpass.equals(us.getPassword())
-                                && !newpass.isEmpty()
-                                && newpass.length() >= 6);
+         IChangePassword passRep = new ChangePassword();  
+         try{
+             String newpass= "123ad";
+             us = passRep.GetUsuario("diego@gmail.com",newpass);
+             assertFalse(("123456").equals(us.getPassword()) && 
+                        !newpass.equals(us.getPassword()) && !newpass.isEmpty()
+                        && newpass.length() >= 6);
         }catch(Exception ex){
-           assertTrue(true);
+            assertTrue(true);
         }
     }
+    
     
     @Test
     public void testCambiarPassword3(){
@@ -65,14 +64,30 @@ public class testCambiarContrasenia {
             assertTrue(true);
         }
     }
-     @Test
+    @Test
     public void testCambiarPassword4(){
+        Usuarios us = new Usuarios();
+        IChangePassword passRep = new ChangePassword();
+          try{
+                String newpass= "123456"; 
+                 us = passRep.GetUsuario("diego@gmail.com",newpass); 
+         
+                assertFalse(("123456").equals(us.getPassword()) && 
+                              !newpass.equals(us.getPassword())
+                                && !newpass.isEmpty()
+                                && newpass.length() >= 6);
+        }catch(Exception ex){
+           assertTrue(true);
+        }
+    }
+     @Test
+    public void testCambiarPassword5(){
         Usuarios us = new Usuarios();
         IChangePassword passRep = new ChangePassword();  
          try{
-             String newpass= "12345";
+             String newpass= "123457";
 
-             us = passRep.GetUsuario("diego@gmail.com",newpass);
+             us = passRep.GetUsuario("159",newpass);
              assertFalse(("123456").equals(us.getPassword()) && 
                            !newpass.equals(us.getPassword()) && !newpass.isEmpty()
                             && newpass.length() >= 6);
@@ -80,21 +95,7 @@ public class testCambiarContrasenia {
                 assertTrue(true);
         }
     }
-       @Test
-    public void testCambiarPassword5(){
-        Usuarios us = new Usuarios();
-         IChangePassword passRep = new ChangePassword();  
-         try{
-             String newpass= "123ad";
-             us = passRep.GetUsuario("diego@gmail.com",newpass);
-             assertFalse(("123456").equals(us.getPassword()) && 
-                        !newpass.equals(us.getPassword()) && !newpass.isEmpty()
-                        && newpass.length() >= 6);
-        }catch(Exception ex){
-            assertTrue(true);
-        }
-    }
-    
+     
        @Test
     public void testCambiarPassword6(){
         Usuarios us = new Usuarios();
@@ -104,8 +105,8 @@ public class testCambiarContrasenia {
 
          try{
                 String newpass= "123457";
-                us = passRep.GetUsuario("diego@gmail.com",newpass);
-                assertFalse(("123ad").equals(us.getPassword()) && 
+                us = passRep.GetUsuario("H0L4",newpass);
+                assertFalse(("123456").equals(us.getPassword()) && 
                             !newpass.equals(us.getPassword()) && !newpass.isEmpty()
                             && newpass.length() >= 6);
         }catch(Exception ex){
@@ -123,8 +124,8 @@ public class testCambiarContrasenia {
 
          try{
                 String newpass= "123457";
-                us = passRep.GetUsuario("diego@gmail.com",newpass);
-                assertFalse(("12345").equals(us.getPassword()) && 
+                us = passRep.GetUsuario("",newpass);
+                assertFalse(("123456").equals(us.getPassword()) && 
                             !newpass.equals(us.getPassword()) && !newpass.isEmpty()
                             && newpass.length() >= 6);
         }catch(Exception ex){
@@ -138,8 +139,8 @@ public class testCambiarContrasenia {
         IChangePassword passRep = new ChangePassword();  
          try{
              String newpass= "123457";
-             us = passRep.GetUsuario("diego@gmail.com",newpass);
-             assertFalse(("").equals(us.getPassword()) && 
+             us = passRep.GetUsuario("CERO",newpass);
+             assertFalse(("123456").equals(us.getPassword()) && 
                            !newpass.equals(us.getPassword()) && !newpass.isEmpty()
                             && newpass.length() >= 6);
         }catch(Exception ex){
@@ -147,6 +148,20 @@ public class testCambiarContrasenia {
         }
     }    
 
+       @Test
+    public void testCambiarPassword9(){
+        Usuarios us = new Usuarios();
+        IChangePassword passRep = new ChangePassword();  
+         try{
+             String newpass= "123457";
+             us = passRep.GetUsuario("CERO@",newpass);
+             assertFalse(("123456").equals(us.getPassword()) && 
+                           !newpass.equals(us.getPassword()) && !newpass.isEmpty()
+                            && newpass.length() >= 6);
+        }catch(Exception ex){
+            assertTrue(true);
+        }
+    }    
     
 }
 
