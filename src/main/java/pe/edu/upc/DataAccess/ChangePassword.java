@@ -20,13 +20,16 @@ public class ChangePassword implements IChangePassword{
     @Override
     public Usuarios GetUsuario(String correo , String password){ 
         Usuarios usuario = new Usuarios();
+        
         if(correo != null && !"".equals(correo)){
-            Session session = NewHibernateUtil.getSessionFactory().openSession();
+           
+            
+           Session session = NewHibernateUtil.getSessionFactory().openSession();
             Criteria criteria = session.createCriteria(Usuarios.class);
             criteria.add(Restrictions.eq("correoElectronico", correo));
             usuario = (Usuarios) criteria.uniqueResult();
             session.close();
-            if(!usuario.getPassword().equals(password) &&
+           if(!usuario.getPassword().equals(password) &&
                     password.length()>= 6)
             {
                return usuario;
