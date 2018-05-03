@@ -21,10 +21,49 @@ import static org.hamcrest.CoreMatchers.*;
  * @author Renato
  */
 public class testBusqueda {
-    
+    IServiciosRep repo = new ServiciosRep();
         @Test
     public void testBusqueda1(){
-    }
-    
-    
+        
+         String busqueda= "";
+         int idcategoria = 1;
+         try{
+            repo.GetAllServicios(busqueda, idcategoria);
+          }catch(Exception ex){
+            assertTrue(true);
+        }               
+    } 
+        @Test
+    public void testBusqueda2(){
+        
+         String busqueda= "";
+         int idcategoria = 0;
+         try{
+            repo.GetAllServicios(busqueda, idcategoria);
+          }catch(Exception ex){
+            assertTrue(true);
+        }               
+    } 
+       @Test
+    public void testBusqueda3(){
+        
+         String busqueda= "JAVA";
+         int idcategoria = 0;
+         try{
+            repo.GetAllServicios(busqueda, idcategoria);
+          }catch(Exception ex){
+            assertTrue(true);
+        }               
+    } 
+        @Test
+    public void testBusqueda4(){
+        
+         String busqueda= "JAVA";
+         int idcategoria = 1;
+         try{
+            repo.GetAllServicios(busqueda, idcategoria);
+          }catch(Exception ex){
+            assertTrue(true);
+        }               
+    } 
 }
